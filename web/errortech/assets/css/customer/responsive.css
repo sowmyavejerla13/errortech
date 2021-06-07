@@ -1,0 +1,84 @@
+@media(max-width: 768px){
+    .login-form{
+        padding: 14px!important;
+    }
+    .popup-field{
+        width: 80%;
+    }
+    .title h1{
+        font-size: 22px;
+    }
+    .extra-content .form-group{
+        justify-content: center;
+    }
+    .chat li{
+        width: 100%;
+    }
+    span.chat-img {
+        margin-bottom: 10px;
+    }
+    .owl-prev {
+        left: -14px;
+    }
+    .owl-next {
+        right: -14px;
+    }
+    .testimonial-section .testi-content{
+        padding: 16px 16px 1px;
+    }
+    form.feed-form{
+        padding: 30px 10px;
+    }
+    .account-btn .dropdown-menu{
+        margin-top: 6px;
+    }
+}
+@media screen and (max-width: 991px){
+    #header{
+        padding: 15px 0;
+    }
+    footer .footbar{
+        justify-content: flex-start;
+    }
+    footer .footbar:after{
+        display: none;
+    }
+    header .navbar-brand {
+        text-align: center;
+    }
+    .account-btn{
+        position: absolute;
+        right: 80px;
+    }
+    .account-btn i{
+        font-size: 34px;
+    }
+    .account-btn .dropdown-toggle:after {
+        display: none;
+    }
+    
+}
+@media(max-width: 450px){
+    .list-box.promo{
+        display: block;
+    }
+    .list-content.promo{
+        width: 100%;
+    }
+    .promo-data li .title,.promo-data li .value{
+        width: 50%;
+    }
+    .promo-data ul {
+        padding: 0 0 20px 0px;
+    }
+    .list-img.promo {
+        width: 100%;
+        margin: auto;
+        padding: 10px 6px!important;
+    }
+    .list-img.promo img{
+        height: 125px;
+        margin: auto;
+        object-fit: cover;
+    }
+}

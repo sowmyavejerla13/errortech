@@ -1,0 +1,28 @@
+
+                      <table id="orders-table" class="table table-striped table-bordered" style="width:100%">
+                      <thead>
+                        <tr>
+                            <!-- <th>ProductId</th> -->
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Mobile</th>
+                            <th>Email</th>
+                            
+                            <th>Dept</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php foreach($empDetails  as $emp){?>
+                            <tr>
+                               <!--  <td><?php echo $productDetails->productId ?></td> -->
+                                <td><?php echo $emp->fname ?></td>
+                                <td width="200px"><?php echo $emp->lname ?></td>
+                                
+                                <td><?php echo $emp->email?></td>
+                                <td><?php echo $emp->mobile?></td>
+                                <td><?php echo $emp->department?></td>
+                                <td><?php //echo date('d/m/Y',strtotime($productDetails->createdOn))?></td>
+                            </tr>
+                        <?php }?>
+                        </tbody>
+                      </table>
